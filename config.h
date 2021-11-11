@@ -72,9 +72,9 @@ static const char *sharenixcmd[] = { "sharenix-section", 0 };
 static const char *clipmenucmd[] = { "clipmenu", 0 };
 
 #include <X11/XF86keysym.h>
-static const char *upvol[]	= { "pactl", "set-sink-volume",	"1", 	"+5%",		NULL};
-static const char *downvol[] 	= { "pactl", "set-sink-volume",	"1", 	"-5%",		NULL};
-static const char *mutevol[]	= { "pactl", "set-sink-mute",	"1",	"toggle",	NULL};
+static const char *upvol[]	= { "pactl", "set-sink-volume",	"0", 	"+5%",		NULL};
+static const char *downvol[] 	= { "pactl", "set-sink-volume",	"0", 	"-5%",		NULL};
+static const char *mutevol[]	= { "pactl", "set-sink-mute",	"0",	"toggle",	NULL};
 
 static Key keys[] = {
 	/* modifier                     key        			function        argument */
